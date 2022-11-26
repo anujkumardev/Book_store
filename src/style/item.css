@@ -1,0 +1,59 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   display: inline-block;
+   min-width: 200px;
+   max-width: 250px;
+    margin: 2vh 1vw;
+    text-align: center;
+    font-family: arial;
+  }
+  .card_prop{
+    text-decoration: none;
+    color: #000;
+  }
+  .card_prop:hover{
+    color: #000;
+  }
+  
+  .price {margin: 0;
+    color: grey;
+    font-size: .8rem;
+  }
+  .card .title{
+    margin: 0;
+    font-size: 1.5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 1.5rem;
+    line-height: 1.5rem;
+  }
+  .card_button {
+    border: none;
+    outline: 0;
+    margin: 0;
+    padding: 1.5vh 1.5vw;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 12px;
+  }
+  
+  .card_button:hover {
+    opacity: 0.7;
+  }
+  .Book-shrtdesc{
+    font-size: .8rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 2rem;
+    line-height: 1rem;
+  }
+ 

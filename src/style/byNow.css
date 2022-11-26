@@ -1,0 +1,48 @@
+.product{
+    display: flex;
+}
+.product_img{
+
+width: 35vw;
+margin: 5vh 5vw;
+}
+.product_info{
+    margin: 1vh 1vw;
+    width: 60vw;
+
+}
+
+.product_buyNow,.product_addToCart{
+    text-decoration: none;
+    padding: .2cm;
+    margin: 0 .2cm;
+    background-color: rgb(24, 24, 24);
+    color: white;
+    border-radius: .1cm;
+
+}
+.product_desc{
+    margin-top:.5cm;
+}
+@media screen and (max-width:600px){
+    .product{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .product_img{
+        width: 80vw;
+        margin: 1vh 10vw;
+    }
+    .product_img img{
+        width: auto;
+    }
+    .product_info{
+        width: 100vw;
+        padding: 1vh 10vw;
+    }
+}
+.selectedBook{
+    background-color: rgb(61, 61, 61);
+    color: white;
+}

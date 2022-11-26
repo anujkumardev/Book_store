@@ -1,0 +1,18 @@
+.book{
+    border:  2px solid rgb(84, 84, 84);
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+.book-status{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: gray;
+}
+.book-info{
+    display: flex;
+    justify-content: space-around;
+    padding: 2vh 2vw;
+}
+
+
